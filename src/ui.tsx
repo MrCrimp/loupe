@@ -4,7 +4,7 @@ import Hello from "./Hello/Hello";
 
 function UI(){
     ReactDOM.render(
-    <Hello name="loupe app" />,
+    <Hello name="loupe says yes" />,
     document.getElementById("app")
 );
 }
