@@ -1,0 +1,24 @@
+{
+  "name": "loupe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --open",
+    "build": "WEBPACK_ENV=production webpack --progress --hide-modules",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^0.1.40",
+    "jest-cli": "^11.0.0",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^0.7.12",
+    "webpack": "^2.1.0-beta",
+    "webpack-dev-server": "^2.0.0-beta"
+  },
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}
